@@ -14,7 +14,7 @@ class Student:
         self.nationality = country
 
     def greet_student(self):
-        return f"Hello {self.name}, welcome to {self.school}"
+        return f"Hello {self.name1}, welcome to {self.school}"
     
     def year_of_birth(self):
         year = datetime.date.today().year
